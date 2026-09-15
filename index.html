@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Le Royaume de Zyphara</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      background: radial-gradient(circle at center, #121826 0%, #060709 100%);
+      color: #fff;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+    }
+    .container {
+      max-width: 850px;
+      width: 100%;
+      background: rgba(18, 24, 38, 0.92);
+      border: 2px solid #3a506b;
+      box-shadow: 0 0 35px rgba(0, 200, 255, 0.25);
+      border-radius: 18px;
+      padding: 35px 25px;
+      text-align: center;
+    }
+    h1 {
+      font-size: 2.4rem;
+      text-transform: uppercase;
+      letter-spacing: 3px;
+      color: #00f0ff;
+      text-shadow: 0 0 10px #00f0ff, 0 0 25px rgba(0, 240, 255, 0.6);
+      margin-bottom: 10px;
+      font-weight: 900;
+    }
+    .slogan-neon {
+      color: #ff003c;
+      font-size: 2rem;
+      font-weight: 800;
+      text-transform: uppercase;
+      letter-spacing: 3px;
+      margin: 15px 0 25px;
+      text-shadow:
+        0 0 5px #ff003c,
+        0 0 12px #ff003c,
+        0 0 25px #ff003c,
+        0 0 45px #b00028;
+    }
+    .card-banner {
+      width: 100%;
+      border-radius: 14px;
+      overflow: hidden;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.8), 0 0 15px rgba(255, 255, 255, 0.1);
+      border: 2px solid #243044;
+      margin-bottom: 25px;
+    }
+    .card-banner img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+    .playstore-box {
+      display: inline-flex;
+      align-items: center;
+      gap: 12px;
+      padding: 14px 32px;
+      background: linear-gradient(135deg, #1c2536, #0e131d);
+      border: 1.5px solid #00f0ff;
+      border-radius: 50px;
+      box-shadow: 0 0 15px rgba(0, 240, 255, 0.2);
+    }
+    .playstore-text {
+      font-size: 1.15rem;
+      letter-spacing: 1.5px;
+      color: #e0e6ed;
+      text-transform: uppercase;
+      font-weight: 700;
+    }
+    .playstore-highlight {
+      color: #00f0ff;
+      text-shadow: 0 0 8px rgba(0, 240, 255, 0.7);
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Le Royaume de Zyphara</h1>
+    <div class="slogan-neon">Fight for your destiny</div>
+
+    <div class="card-banner">
+      <img src="cartes_zyphara.png" alt="Cartes Le Royaume de Zyphara">
+    </div>
+
+    <div class="playstore-box">
+      <span class="playstore-text">Available soon on <span class="playstore-highlight">Play Store</span></span>
+    </div>
+  </div>
+</body>
+</html>
